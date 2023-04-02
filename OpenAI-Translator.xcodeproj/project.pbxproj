@@ -8,42 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		446B2E4929D99D3500088EB1 /* OpenAI_TranslatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2E4829D99D3500088EB1 /* OpenAI_TranslatorApp.swift */; };
-		446B2E4B29D99D3500088EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2E4A29D99D3500088EB1 /* ContentView.swift */; };
 		446B2E4D29D99D3500088EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446B2E4C29D99D3500088EB1 /* Assets.xcassets */; };
-		446B2E5029D99D3500088EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 446B2E4F29D99D3500088EB1 /* Preview Assets.xcassets */; };
-		446B2E5A29D99D3500088EB1 /* OpenAI_TranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2E5929D99D3500088EB1 /* OpenAI_TranslatorTests.swift */; };
-		446B2E6429D99D3500088EB1 /* OpenAI_TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2E6329D99D3500088EB1 /* OpenAI_TranslatorUITests.swift */; };
-		446B2E6629D99D3500088EB1 /* OpenAI_TranslatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B2E6529D99D3500088EB1 /* OpenAI_TranslatorUITestsLaunchTests.swift */; };
+		44F5D02829D9CBD0003C25FC /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44F5D02729D9CBD0003C25FC /* OpenAIKit */; };
+		44F5D02B29D9D314003C25FC /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = 44F5D02A29D9D314003C25FC /* AlertToast */; };
+		44F5D02E29D9E177003C25FC /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D02D29D9E177003C25FC /* Color+Extension.swift */; };
+		44F5D03029D9E194003C25FC /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D02F29D9E194003C25FC /* SpeechRecognizer.swift */; };
+		44F5D03629D9E236003C25FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D03529D9E236003C25FC /* MainView.swift */; };
+		44F5D03A29D9E276003C25FC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D03929D9E276003C25FC /* SettingsView.swift */; };
+		44F5D03D29D9E292003C25FC /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D03C29D9E292003C25FC /* LanguageSelectionView.swift */; };
+		44F5D04029D9E2BF003C25FC /* LanguageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D03F29D9E2BF003C25FC /* LanguageItemView.swift */; };
+		44F5D04329D9E2E3003C25FC /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D04229D9E2E3003C25FC /* Language.swift */; };
+		44F5D04529D9E324003C25FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D04429D9E324003C25FC /* HomeView.swift */; };
+		44F5D04729D9E375003C25FC /* OpenAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D04629D9E375003C25FC /* OpenAI.swift */; };
+		44F5D04A29D9E85D003C25FC /* TranslationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D04929D9E85D003C25FC /* TranslationViewModel.swift */; };
+		44F5D04D29D9EBB7003C25FC /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 44F5D04C29D9EBB7003C25FC /* CachedAsyncImage */; };
+		44F5D05029D9F13B003C25FC /* TranslatorCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D04F29D9F13B003C25FC /* TranslatorCardView.swift */; };
+		44F5D05229DA3C6B003C25FC /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5D05129DA3C6B003C25FC /* SettingsViewModel.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		446B2E5629D99D3500088EB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 446B2E3D29D99D3400088EB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 446B2E4429D99D3500088EB1;
-			remoteInfo = "OpenAI-Translator";
-		};
-		446B2E6029D99D3500088EB1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 446B2E3D29D99D3400088EB1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 446B2E4429D99D3500088EB1;
-			remoteInfo = "OpenAI-Translator";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		446B2E4529D99D3500088EB1 /* OpenAI-Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenAI-Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		446B2E4829D99D3500088EB1 /* OpenAI_TranslatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_TranslatorApp.swift; sourceTree = "<group>"; };
-		446B2E4A29D99D3500088EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		446B2E4C29D99D3500088EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		446B2E4F29D99D3500088EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		446B2E5529D99D3500088EB1 /* OpenAI-TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenAI-TranslatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		446B2E5929D99D3500088EB1 /* OpenAI_TranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_TranslatorTests.swift; sourceTree = "<group>"; };
-		446B2E5F29D99D3500088EB1 /* OpenAI-TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenAI-TranslatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		446B2E6329D99D3500088EB1 /* OpenAI_TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_TranslatorUITests.swift; sourceTree = "<group>"; };
-		446B2E6529D99D3500088EB1 /* OpenAI_TranslatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI_TranslatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44F5D02D29D9E177003C25FC /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		44F5D02F29D9E194003C25FC /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		44F5D03529D9E236003C25FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		44F5D03929D9E276003C25FC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		44F5D03C29D9E292003C25FC /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		44F5D03F29D9E2BF003C25FC /* LanguageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageItemView.swift; sourceTree = "<group>"; };
+		44F5D04229D9E2E3003C25FC /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		44F5D04429D9E324003C25FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44F5D04629D9E375003C25FC /* OpenAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAI.swift; sourceTree = "<group>"; };
+		44F5D04929D9E85D003C25FC /* TranslationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewModel.swift; sourceTree = "<group>"; };
+		44F5D04F29D9F13B003C25FC /* TranslatorCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorCardView.swift; sourceTree = "<group>"; };
+		44F5D05129DA3C6B003C25FC /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +49,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5229D99D3500088EB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5C29D99D3500088EB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				44F5D04D29D9EBB7003C25FC /* CachedAsyncImage in Frameworks */,
+				44F5D02829D9CBD0003C25FC /* OpenAIKit in Frameworks */,
+				44F5D02B29D9D314003C25FC /* AlertToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				446B2E4729D99D3500088EB1 /* OpenAI-Translator */,
-				446B2E5829D99D3500088EB1 /* OpenAI-TranslatorTests */,
-				446B2E6229D99D3500088EB1 /* OpenAI-TranslatorUITests */,
 				446B2E4629D99D3500088EB1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				446B2E4529D99D3500088EB1 /* OpenAI-Translator.app */,
-				446B2E5529D99D3500088EB1 /* OpenAI-TranslatorTests.xctest */,
-				446B2E5F29D99D3500088EB1 /* OpenAI-TranslatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,36 +78,101 @@
 			isa = PBXGroup;
 			children = (
 				446B2E4829D99D3500088EB1 /* OpenAI_TranslatorApp.swift */,
-				446B2E4A29D99D3500088EB1 /* ContentView.swift */,
+				44F5D02C29D9E16E003C25FC /* Extensions */,
+				44F5D03229D9E206003C25FC /* Helpers */,
+				44F5D03429D9E221003C25FC /* Data */,
+				44F5D03329D9E217003C25FC /* Presentation */,
 				446B2E4C29D99D3500088EB1 /* Assets.xcassets */,
-				446B2E4E29D99D3500088EB1 /* Preview Content */,
 			);
 			path = "OpenAI-Translator";
 			sourceTree = "<group>";
 		};
-		446B2E4E29D99D3500088EB1 /* Preview Content */ = {
+		44F5D02C29D9E16E003C25FC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				446B2E4F29D99D3500088EB1 /* Preview Assets.xcassets */,
+				44F5D02D29D9E177003C25FC /* Color+Extension.swift */,
 			);
-			path = "Preview Content";
+			path = Extensions;
 			sourceTree = "<group>";
 		};
-		446B2E5829D99D3500088EB1 /* OpenAI-TranslatorTests */ = {
+		44F5D03229D9E206003C25FC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				446B2E5929D99D3500088EB1 /* OpenAI_TranslatorTests.swift */,
+				44F5D02F29D9E194003C25FC /* SpeechRecognizer.swift */,
 			);
-			path = "OpenAI-TranslatorTests";
+			path = Helpers;
 			sourceTree = "<group>";
 		};
-		446B2E6229D99D3500088EB1 /* OpenAI-TranslatorUITests */ = {
+		44F5D03329D9E217003C25FC /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				446B2E6329D99D3500088EB1 /* OpenAI_TranslatorUITests.swift */,
-				446B2E6529D99D3500088EB1 /* OpenAI_TranslatorUITestsLaunchTests.swift */,
+				44F5D03729D9E265003C25FC /* Home */,
+				44F5D03829D9E268003C25FC /* Settings */,
+				44F5D04829D9E855003C25FC /* ViewModel */,
+				44F5D03529D9E236003C25FC /* MainView.swift */,
 			);
-			path = "OpenAI-TranslatorUITests";
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		44F5D03429D9E221003C25FC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D04229D9E2E3003C25FC /* Language.swift */,
+				44F5D04629D9E375003C25FC /* OpenAI.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		44F5D03729D9E265003C25FC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D04E29D9F131003C25FC /* TranslatorCardView */,
+				44F5D03E29D9E2B5003C25FC /* LanguageItem */,
+				44F5D03B29D9E288003C25FC /* LanguageSelection */,
+				44F5D04429D9E324003C25FC /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		44F5D03829D9E268003C25FC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D03929D9E276003C25FC /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		44F5D03B29D9E288003C25FC /* LanguageSelection */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D03C29D9E292003C25FC /* LanguageSelectionView.swift */,
+			);
+			path = LanguageSelection;
+			sourceTree = "<group>";
+		};
+		44F5D03E29D9E2B5003C25FC /* LanguageItem */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D03F29D9E2BF003C25FC /* LanguageItemView.swift */,
+			);
+			path = LanguageItem;
+			sourceTree = "<group>";
+		};
+		44F5D04829D9E855003C25FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D04929D9E85D003C25FC /* TranslationViewModel.swift */,
+				44F5D05129DA3C6B003C25FC /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		44F5D04E29D9F131003C25FC /* TranslatorCardView */ = {
+			isa = PBXGroup;
+			children = (
+				44F5D04F29D9F13B003C25FC /* TranslatorCardView.swift */,
+			);
+			path = TranslatorCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,45 +191,14 @@
 			dependencies = (
 			);
 			name = "OpenAI-Translator";
+			packageProductDependencies = (
+				44F5D02729D9CBD0003C25FC /* OpenAIKit */,
+				44F5D02A29D9D314003C25FC /* AlertToast */,
+				44F5D04C29D9EBB7003C25FC /* CachedAsyncImage */,
+			);
 			productName = "OpenAI-Translator";
 			productReference = 446B2E4529D99D3500088EB1 /* OpenAI-Translator.app */;
 			productType = "com.apple.product-type.application";
-		};
-		446B2E5429D99D3500088EB1 /* OpenAI-TranslatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 446B2E6C29D99D3500088EB1 /* Build configuration list for PBXNativeTarget "OpenAI-TranslatorTests" */;
-			buildPhases = (
-				446B2E5129D99D3500088EB1 /* Sources */,
-				446B2E5229D99D3500088EB1 /* Frameworks */,
-				446B2E5329D99D3500088EB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				446B2E5729D99D3500088EB1 /* PBXTargetDependency */,
-			);
-			name = "OpenAI-TranslatorTests";
-			productName = "OpenAI-TranslatorTests";
-			productReference = 446B2E5529D99D3500088EB1 /* OpenAI-TranslatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		446B2E5E29D99D3500088EB1 /* OpenAI-TranslatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 446B2E6F29D99D3500088EB1 /* Build configuration list for PBXNativeTarget "OpenAI-TranslatorUITests" */;
-			buildPhases = (
-				446B2E5B29D99D3500088EB1 /* Sources */,
-				446B2E5C29D99D3500088EB1 /* Frameworks */,
-				446B2E5D29D99D3500088EB1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				446B2E6129D99D3500088EB1 /* PBXTargetDependency */,
-			);
-			name = "OpenAI-TranslatorUITests";
-			productName = "OpenAI-TranslatorUITests";
-			productReference = 446B2E5F29D99D3500088EB1 /* OpenAI-TranslatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,14 +213,6 @@
 					446B2E4429D99D3500088EB1 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					446B2E5429D99D3500088EB1 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 446B2E4429D99D3500088EB1;
-					};
-					446B2E5E29D99D3500088EB1 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = 446B2E4429D99D3500088EB1;
-					};
 				};
 			};
 			buildConfigurationList = 446B2E4029D99D3400088EB1 /* Build configuration list for PBXProject "OpenAI-Translator" */;
@@ -215,13 +224,16 @@
 				Base,
 			);
 			mainGroup = 446B2E3C29D99D3400088EB1;
+			packageReferences = (
+				44F5D02629D9CBD0003C25FC /* XCRemoteSwiftPackageReference "openai-kit" */,
+				44F5D02929D9D314003C25FC /* XCRemoteSwiftPackageReference "AlertToast" */,
+				44F5D04B29D9EBB7003C25FC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
 			productRefGroup = 446B2E4629D99D3500088EB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				446B2E4429D99D3500088EB1 /* OpenAI-Translator */,
-				446B2E5429D99D3500088EB1 /* OpenAI-TranslatorTests */,
-				446B2E5E29D99D3500088EB1 /* OpenAI-TranslatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,22 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446B2E5029D99D3500088EB1 /* Preview Assets.xcassets in Resources */,
 				446B2E4D29D99D3500088EB1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5329D99D3500088EB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5D29D99D3500088EB1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,42 +254,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				446B2E4B29D99D3500088EB1 /* ContentView.swift in Sources */,
+				44F5D03029D9E194003C25FC /* SpeechRecognizer.swift in Sources */,
+				44F5D02E29D9E177003C25FC /* Color+Extension.swift in Sources */,
+				44F5D04A29D9E85D003C25FC /* TranslationViewModel.swift in Sources */,
+				44F5D04529D9E324003C25FC /* HomeView.swift in Sources */,
+				44F5D04329D9E2E3003C25FC /* Language.swift in Sources */,
+				44F5D03A29D9E276003C25FC /* SettingsView.swift in Sources */,
+				44F5D05029D9F13B003C25FC /* TranslatorCardView.swift in Sources */,
+				44F5D04729D9E375003C25FC /* OpenAI.swift in Sources */,
+				44F5D05229DA3C6B003C25FC /* SettingsViewModel.swift in Sources */,
+				44F5D03629D9E236003C25FC /* MainView.swift in Sources */,
 				446B2E4929D99D3500088EB1 /* OpenAI_TranslatorApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5129D99D3500088EB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				446B2E5A29D99D3500088EB1 /* OpenAI_TranslatorTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		446B2E5B29D99D3500088EB1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				446B2E6629D99D3500088EB1 /* OpenAI_TranslatorUITestsLaunchTests.swift in Sources */,
-				446B2E6429D99D3500088EB1 /* OpenAI_TranslatorUITests.swift in Sources */,
+				44F5D03D29D9E292003C25FC /* LanguageSelectionView.swift in Sources */,
+				44F5D04029D9E2BF003C25FC /* LanguageItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		446B2E5729D99D3500088EB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 446B2E4429D99D3500088EB1 /* OpenAI-Translator */;
-			targetProxy = 446B2E5629D99D3500088EB1 /* PBXContainerItemProxy */;
-		};
-		446B2E6129D99D3500088EB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 446B2E4429D99D3500088EB1 /* OpenAI-Translator */;
-			targetProxy = 446B2E6029D99D3500088EB1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		446B2E6729D99D3500088EB1 /* Debug */ = {
@@ -416,15 +394,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenAI-Translator/Preview Content\"";
-				DEVELOPMENT_TEAM = YD936JB5S9;
+				DEVELOPMENT_TEAM = 3UVKHQUHJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = microphone;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Please;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,15 +423,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"OpenAI-Translator/Preview Content\"";
-				DEVELOPMENT_TEAM = YD936JB5S9;
+				DEVELOPMENT_TEAM = 3UVKHQUHJ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = microphone;
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = Please;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,82 +442,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		446B2E6D29D99D3500088EB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YD936JB5S9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.alkin.OpenAI-TranslatorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAI-Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAI-Translator";
-			};
-			name = Debug;
-		};
-		446B2E6E29D99D3500088EB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YD936JB5S9;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.alkin.OpenAI-TranslatorTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAI-Translator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAI-Translator";
-			};
-			name = Release;
-		};
-		446B2E7029D99D3500088EB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YD936JB5S9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.alkin.OpenAI-TranslatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OpenAI-Translator";
-			};
-			name = Debug;
-		};
-		446B2E7129D99D3500088EB1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YD936JB5S9;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.alkin.OpenAI-TranslatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "OpenAI-Translator";
 			};
 			name = Release;
 		};
@@ -564,25 +466,52 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		446B2E6C29D99D3500088EB1 /* Build configuration list for PBXNativeTarget "OpenAI-TranslatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				446B2E6D29D99D3500088EB1 /* Debug */,
-				446B2E6E29D99D3500088EB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		446B2E6F29D99D3500088EB1 /* Build configuration list for PBXNativeTarget "OpenAI-TranslatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				446B2E7029D99D3500088EB1 /* Debug */,
-				446B2E7129D99D3500088EB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44F5D02629D9CBD0003C25FC /* XCRemoteSwiftPackageReference "openai-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dylanshine/openai-kit.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		44F5D02929D9D314003C25FC /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		44F5D04B29D9EBB7003C25FC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44F5D02729D9CBD0003C25FC /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44F5D02629D9CBD0003C25FC /* XCRemoteSwiftPackageReference "openai-kit" */;
+			productName = OpenAIKit;
+		};
+		44F5D02A29D9D314003C25FC /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44F5D02929D9D314003C25FC /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+		44F5D04C29D9EBB7003C25FC /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44F5D04B29D9EBB7003C25FC /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 446B2E3D29D99D3400088EB1 /* Project object */;
 }

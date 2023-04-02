@@ -10,7 +10,7 @@ import SwiftUI
 struct OpenAI_TranslatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
